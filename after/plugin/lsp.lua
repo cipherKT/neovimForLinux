@@ -10,6 +10,8 @@ require('mason-lspconfig').setup({
         'eslint',
         'lua_ls', -- Note: 'sumneko_lua' is now 'lua_ls'
         'rust_analyzer',
+        'clangd',
+        'pyright'
     }
 })
 
