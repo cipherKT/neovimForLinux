@@ -22,3 +22,9 @@ Here’s a streamlined step-by-step guide to setting up your Neovim configuratio
    ```vim
    :PackerSync
    ```
+5. **Locate teh packer.lua file in lua/r00t3d directory**
+   Open it in nvim and run this commands
+   ```vim
+   :source %
+   :PackerSync
+   ```
